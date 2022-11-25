@@ -15,7 +15,7 @@ EMAIL_ADDRESS = os.environ.get('email_chirag')
 EMAIL_PASSWORD = os.environ.get('email_chirag_pass')
 
 msg = EmailMessage()
-msg['Subject'] = '3 Page Report'
+msg['Subject'] = 'Daily Covid 19 Global Report'
 msg['From'] = EMAIL_ADDRESS
 msg['To'] = 'chiragmalhan97@gmail.com'
 
