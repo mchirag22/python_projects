@@ -30,4 +30,13 @@ def plot_global_case_map(filename=None, day=None):
 
 	fig.update_layout(margin=dict(l=0, r=0, t=70, b=20), title={"font": {"size": 30}, "x":0.5},)
 	filename = filename if filename else "global_chart.png"
+<<<<<<< HEAD
 	fig.write_image(filename, engine='kaleido')
+=======
+	fig.write_image(filename, engine='kaleido')
+
+if __name__ == '__main__':
+	# yesterday = "10/10/20" # Uncomment for testing
+
+	plot_global_case_map(day=yesterday) # saves as global_chart.png by default
+>>>>>>> f4d18573d24b8711a0e0354b6b260ba4b1de660a
