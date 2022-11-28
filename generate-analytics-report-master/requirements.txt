@@ -1,7 +1,0 @@
-fpdf==1.7.2
-pandas==1.5.1
-numpy==1.23.4
-matplotlib==3.6.2
-plotly==5.11.0
-kaleido==0.1.0.post1
-statsmodels==0.13.5
